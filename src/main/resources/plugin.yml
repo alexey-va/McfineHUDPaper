@@ -1,0 +1,13 @@
+name: McfineHUDPaper
+version: '${project.version}'
+main: ru.mcfine.mcfinehudpaper.McfineHUDPaper
+api-version: 1.19
+load: STARTUP
+depend: [Vault]
+commands:
+  setcompass:
+    description: For plugin usage.
+    permission: mcfinehud.setcompass
+  clearcompass:
+    description: For plugin use
+    permission: mcfinehud.clearcompass
